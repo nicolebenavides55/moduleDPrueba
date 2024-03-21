@@ -1,0 +1,69 @@
+:root{
+  --blanco: #ffffff;
+  --azul: #0000ff;
+  --gris: #faf8fa;
+  --rosado: #ff51f9;
+}
+
+.app{
+  max-width: 390px;
+  max-height: 100%;
+  overflow: hidden;
+  background-color: var(--blanco);
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+form{
+  width: 90%;
+  display: block;
+}
+
+form input{
+  width: 80%;
+  margin: 15px auto;
+}
+
+.nameTeam{
+  background-color: var(--azul);
+  color: var(--blanco);
+}
+
+.tap{
+  text-align: left;
+  padding: 0 0 15px 15px;
+}
+
+.runners{
+  display: block;
+  text-align: center;
+}
+
+.btnG{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  background-color: var(--gris);
+  border: 2px solid var(--gris);
+  color: var(--blanco);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 7px;
+}
+
+.btnR{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  background-color: var(--rosado);
+  border: 2px solid var(--rosado);
+  color: var(--blanco);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 7px;
+}

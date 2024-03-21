@@ -1,0 +1,18 @@
+{
+    "runner": {
+        "id": 1,
+        "firstName": "Sara",
+        "lastName": "Sierra",
+        "pace": "05:31",
+        "teamId": 1
+    },
+    "stage": {
+        "id": 13,
+        "distance": 6.4,
+        "startingLocation": "Salitre",
+        "arrivalLocation": "Tintal",
+        "name": "NN"
+    },
+    "finished": true,
+    "scheduleDifference": -1362
+}
